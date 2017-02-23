@@ -1,0 +1,138 @@
+.abs-btn-default {  
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	padding: 4px 14px;
+	background-color: $btn-gray;
+	color: #FFF;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-weight: bold;
+
+	&:hover {
+		@extend .abs-btn-default;
+		background-color: #000;
+	}
+
+	&:focus {
+		@extend .abs-btn-default;
+		border: 1px solid $btn-dark-gray;
+		box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+	}
+
+	&:active {
+		@extend .abs-btn-default;
+		background-color: $btn-dark-gray;
+	}
+}
+
+.abs-btn-primary {  
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	padding: 4px 14px;
+	background-color: $btn-blue;
+	color: #FFF;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-weight: bold;
+
+	&:hover {
+		@extend .abs-btn-primary;
+		background-color: #000;
+	}
+
+	&:focus {
+		@extend .abs-btn-primary;
+		border: 1px solid $btn-dark-blue;
+		box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+	}
+
+	&:active {
+		@extend .abs-btn-primary;
+		background-color: $btn-dark-blue;
+	}
+}
+
+.abs-btn-info {  
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	padding: 4px 14px;
+	background-color: #FFF;
+	color: $btn-dark-gray;
+	border: 1px solid $btn-gray;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-weight: bold;
+
+	&:hover {
+		@extend .abs-btn-info;
+		color: $btn-dark-blue;
+		border: 1px solid $btn-blue;
+	}
+
+	&:focus {
+		@extend .abs-btn-info;
+		color: $btn-dark-blue;
+		border: 1px solid transparent;
+		box-shadow: 0px 0px 3px 0px rgba(2, 126, 187, 0.5);
+	}
+
+	&:active {
+		@extend .abs-btn-info;
+		background-color: $btn-light-blue;
+		color: $btn-dark-blue;
+		border: 1px solid $btn-blue;
+	}
+}
+
+.abs-btn-blank {  
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	padding: 4px 14px;
+	background-color: #FFF;
+	color: $btn-dark-blue;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-weight: bold;
+
+	&:hover {
+		@extend .abs-btn-blank;
+		color: $btn-dark-blue;
+		border: 1px solid $btn-blue;
+	}
+
+	&:focus {
+		@extend .abs-btn-blank;
+		color: $btn-dark-blue;
+		border: 1px solid $btn-light-blue;
+	}
+
+	&:active {
+		@extend .abs-btn-blank;
+		background-color: $btn-light-blue;
+	}
+}
+
+.fluence-btn-default {  
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	padding: 0.5em 1.5em;
+	color: #FFF;
+	@include gradient-primary ($solid-blue, $solid-light-blue);
+	border: none;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	&:hover {
+		@extend .fluence-btn-default;
+		@include gradient-primary ($solid-dark-blue, $solid-dark-blue);
+	}
+
+	&:focus {
+		@extend .fluence-btn-default;
+		box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+	}
+
+	&:active {
+		@extend .fluence-btn-default;
+	}
+}
