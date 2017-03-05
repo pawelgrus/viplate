@@ -1,66 +1,93 @@
 .box-logo {
-	width: 320px;
-	height: 100px;
-	color: white;
+  width: 320px;
+  height: 100px;
+  color: white;
 }
 
 .gradient {
-	background: rgba(85,103,248,1);
-	background: -moz-linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
-	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(85,103,248,1)), color-stop(100%, rgba(101,130,246,1)));
-	background: -webkit-linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
-	background: -o-linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
-	background: -ms-linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
-	background: linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5567f8', endColorstr='#6582f6', GradientType=1 );
+  background: rgba(85, 103, 248, 1);
+  background: -moz-linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(85, 103, 248, 1)), color-stop(100%, rgba(101, 130, 246, 1)));
+  background: -webkit-linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
+  background: -o-linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
+  background: linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5567f8', endColorstr='#6582f6', GradientType=1);
 }
 
 .menu-contact {
-	background: #f4f7f9;
-	width: 880px;
-	height: 50px;
-	text-align: right;
-	.label {
-		margin-left: 10px;
-		margin-right: 36px;
-	}
-	.mail-us {
-		color: #FFF;
-		display: inline-block;
-		width: 150px;
-	}
+  background: #f4f7f9;
+  width: 880px;
+  height: 50px;
+  text-align: right;
+  .label {
+    margin-left: 10px;
+    margin-right: 36px;
+  }
 }
 
 .header {
-	width: 100%;
-	height: 100px;
-	display: flex;
-	.logo {
-		width: 25%;
-		padding: 1.5em 3em;
-		text-align: center;
-		height: 100%;
-		img {
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-	}
-	.panel {
-		flex-grow: 1;
-		background-color: $fade-color;
-		display: table;
-		.panel-top {
-			text-align: right;
-			height: 50px;
-			display: table-cell;
-			vertical-align: middle;
-			span {
-				padding: 0 40px 0 10px;
-			}
-		}
-		.menu {
-			height: 50px;
-		}
-	}
+  width: 100%;
+  height: 100px;
+  display: flex;
+  .logo {
+    width: 25%;
+    padding: 1.5em 3em;
+    text-align: center;
+    height: 100%;
+    img {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .panel {
+    flex-grow: 1;
+    background-color: $fade-color;
+    width: 100%;
+    .panel-top {
+      height: 50px;
+      display: flex;
+      .mail-us {
+        display: inline-block;
+        width: 150px;
+        padding: 10px;
+        text-align: right;
+        color: #FFF;
+        i {
+          margin-left: 7px;
+        }
+        p {
+          font-size: 0.9em;
+          color: lightgray;
+        }
+      }
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        flex-grow: 1;
+        span {
+          padding: 0 40px 0 10px;
+        }
+      }
+      p {
+        float: right;
+      }
+    }
+    .menu {
+      height: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .menu-content {
+        display: flex;
+        font-weight: bold;
+        div {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
 }
