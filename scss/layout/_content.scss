@@ -54,7 +54,6 @@ p {
 
 h2 {
 	font-size: 1.4em;
-	padding-top: 40px;
 }
 
 h3 {
@@ -92,3 +91,18 @@ h4 {
 
 /* Rules for using icons as brand color on a light background. */
 .material-icons.md-lead { color: #5567f8; }
+
+.brands {
+	align-items: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid $line;
+}
+
+.brands-header {
+	width: 25%;
+}
+
+.brand-1, .brand-2, .brand-3, .brand-4 {
+	flex-grow: 1;
+}
