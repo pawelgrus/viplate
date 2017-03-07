@@ -40,6 +40,7 @@
     padding: 1.5em 3em;
     text-align: center;
     height: 100%;
+    border-bottom: 1px solid $navy-blue;
     img {
       height: 100%;
       margin: 0;
@@ -49,7 +50,7 @@
   .panel {
     flex-grow: 1;
     background-color: $fade-color;
-    width: 100%;
+    border-bottom: 1px solid $line;
     .panel-top {
       height: 50px;
       display: flex;
