@@ -106,3 +106,69 @@ h4 {
 .brand-1, .brand-2, .brand-3, .brand-4 {
 	flex-grow: 1;
 }
+
+.asside-contact {
+	border-right: 1px solid $line;
+	width: 25%;
+	p {
+		padding-top: 20px;
+	}
+}
+
+.fade-text {
+	color: $fade-black;
+}
+
+.location {
+	background-image: url("../img/map.png");
+	height: 340px;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+.line-bottom {
+	border-bottom: 1px solid $line;
+}
+
+.specification {
+	width: 75%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.photo {
+	width: 50%;
+	text-align: center;
+	height: 400px;
+	background-image: url("../img/photo.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.spec {
+	width: 50%;
+	table {
+		th {
+			text-align: left;
+			text-transform: uppercase;
+			border-bottom: 1px solid $line;
+			padding: 20px;
+			background-color: #FFF;
+		}
+		tr:nth-child(odd) {
+			background-color: $zebra;
+		}
+		td {
+			padding: 10px;
+		}
+	}
+}
+
+.bold {
+	font-weight: bold;
+}

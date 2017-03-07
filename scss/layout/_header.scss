@@ -1,29 +1,34 @@
 .box-logo {
-  width: 320px;
-  height: 100px;
-  color: white;
+	width: 320px;
+	height: 100px;
+	color: white;
 }
 
 .gradient {
-  background: rgba(85, 103, 248, 1);
-  background: -moz-linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(85, 103, 248, 1)), color-stop(100%, rgba(101, 130, 246, 1)));
-  background: -webkit-linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
-  background: -o-linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
-  background: -ms-linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
-  background: linear-gradient(45deg, rgba(85, 103, 248, 1) 0%, rgba(101, 130, 246, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5567f8', endColorstr='#6582f6', GradientType=1);
+	background: rgba(85,103,248,1);
+	background: -moz-linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(85,103,248,1)), color-stop(100%, rgba(101,130,246,1)));
+	background: -webkit-linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
+	background: linear-gradient(45deg, rgba(85,103,248,1) 0%, rgba(101,130,246,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5567f8', endColorstr='#6582f6', GradientType=1 );
 }
 
 .menu-contact {
-  background: #f4f7f9;
-  width: 880px;
-  height: 50px;
-  text-align: right;
-  .label {
-    margin-left: 10px;
-    margin-right: 36px;
-  }
+	background: #f4f7f9;
+	width: 880px;
+	height: 50px;
+	text-align: right;
+	.label {
+		margin-left: 10px;
+		margin-right: 36px;
+	}
+	.mail-us {
+		color: #FFF;
+		display: inline-block;
+		width: 150px;
+	}
 }
 
 .header {
