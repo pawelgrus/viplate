@@ -201,3 +201,31 @@ h4 {
 		flex-grow: 1;
 	}
 }
+
+.gallery {
+	.left {
+		width: 50%;
+		height: 70vh;
+		background-color: red;
+		.slim {
+			background-color: orange;
+			width: 100%;
+			height: 50%;
+		}
+		.s-left {
+			width: 50%;
+			height: 100%;
+			background-color: yellow;
+		}
+		.s-right {
+			width: 50%;
+			height: 100%;
+			background-color: green;
+		}
+	}
+	.right {
+		width: 50%;
+		height: 70vh;
+		background-color: blue;
+	}
+}
