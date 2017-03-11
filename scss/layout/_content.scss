@@ -212,20 +212,45 @@ h4 {
 			width: 100%;
 			height: 50%;
 		}
-		.s-left {
-			width: 50%;
-			height: 100%;
-			background-color: yellow;
+		.double {
+			height: 50%;
+			.s-left {
+				width: 50%;
+				height: 100%;
+				background-color: yellow;
+			}
+			.s-right {
+				width: 50%;
+				height: 100%;
+				background-color: green;
+			}
 		}
-		.s-right {
-			width: 50%;
-			height: 100%;
-			background-color: green;
-		}
+		
 	}
 	.right {
 		width: 50%;
 		height: 70vh;
 		background-color: blue;
+	}
+}
+
+.brandies {
+	border-bottom: 1px solid $line;
+	.brandies-image {
+		width: 25%;
+	    padding: 1.5em 3em;
+	    text-align: center;
+	    height: 100%;
+	    img {
+	      height: 100%;
+	      margin: 0;
+	      padding: 0;
+	    }
+	}
+
+	.brandies-text {
+		width: 75%;
+		height: 100%;
+		align-self: center;
 	}
 }
