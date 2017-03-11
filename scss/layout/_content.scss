@@ -254,3 +254,56 @@ h4 {
 		align-self: center;
 	}
 }
+
+.boxes {
+	border-bottom: 1px solid $line;
+}
+
+
+.links {
+	.links-image {
+		height: 12em;
+		width: 100%;
+		margin-bottom: 2em;
+		&.img-1 {
+			background-image: url('/img/uchwyt.png');
+			background-position: center center;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		&.img-2 {
+			background-image: url('/img/sluchawki.png');
+			background-position: center center;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		&.img-3 {
+			background-image: url('/img/powerbank.png');
+			background-position: center center;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	}
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.price {
+	color: $price-color;
+	font-size: 1.6em;
+}
+
+.price-box {
+	p {
+		align-self: center;
+		&:last-child {
+			background-color: $solid-blue;
+			text-align: center;
+			padding: 0.9em 1.2em;
+			color: #FFF;
+		}
+	}
+}
