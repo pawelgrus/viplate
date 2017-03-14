@@ -1,0 +1,21 @@
+@media screen and (max-width: 805px) {
+  .header {
+    flex-wrap: wrap;
+    height: auto;
+    .panel {
+      .menu {
+        height: auto;
+        .menu-content {
+          flex-wrap: wrap;
+          div {
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .logo {
+      width: 100%;
+    }
+  }
+}

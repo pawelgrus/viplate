@@ -535,6 +535,19 @@ h4 {
     padding: 0.9em 1.2em;
     color: #FFF; }
 
+@media screen and (max-width: 805px) {
+  .header {
+    flex-wrap: wrap;
+    height: auto; }
+    .header .panel .menu {
+      height: auto; }
+      .header .panel .menu .menu-content {
+        flex-wrap: wrap; }
+        .header .panel .menu .menu-content div {
+          width: 100%;
+          text-align: center; }
+    .header .logo {
+      width: 100%; } }
 .abs-btn-default, .abs-btn-default:hover, .abs-btn-default:focus, .abs-btn-default:active {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   padding: 4px 14px;
