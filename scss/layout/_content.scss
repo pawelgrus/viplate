@@ -145,8 +145,9 @@ h4 {
 .location {
   background-image: url("../img/map.png");
   height: 340px;
-  background-position: bottom center;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: container;
 }
 
 .line-bottom {
@@ -167,7 +168,8 @@ h4 {
   width: 50%;
   text-align: center;
   height: 400px;
-  background-image: url("../img/photo.png");
+  margin: 40px 0;
+  background-image: url("../img/photo_a.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -176,11 +178,13 @@ h4 {
 .spec {
   width: 50%;
   table {
+    width: 100%;
+    margin-bottom: 40px;
     th {
       text-align: left;
       text-transform: uppercase;
       border-bottom: 1px solid $line;
-      padding: 20px;
+      padding: 20px 0;
       background-color: #FFF;
     }
     tr:nth-child(odd) {
@@ -198,6 +202,8 @@ h4 {
 
 .jumbotron {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   .jumbotron-menu {
     width: 25%;
     background-color: $steal-black;
@@ -211,6 +217,7 @@ h4 {
         width: 100%;
         & > span {
           display: inline-block;
+          color: $font-fade;
         }
         &:after {
           font-size: 30px;
@@ -237,9 +244,15 @@ h4 {
   .left {
     width: 50%;
     height: 70vh;
-    background-color: red;
+    background-image: url('../img/photo_a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     .slim {
-      background-color: orange;
+      background-image: url('../img/photo_b.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
       width: 100%;
       height: 50%;
     }
@@ -248,12 +261,18 @@ h4 {
       .s-left {
         width: 50%;
         height: 100%;
-        background-color: yellow;
+        background-image: url('../img/photo_c.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
       }
       .s-right {
         width: 50%;
         height: 100%;
-        background-color: green;
+        background-image: url('../img/photo_d.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
       }
     }
 
@@ -261,19 +280,60 @@ h4 {
   .right {
     width: 50%;
     height: 70vh;
-    background-color: blue;
+    background-image: url('../img/photo_e.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.overview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.description {
+  p {
+    line-height: 1.7;
+  }
+}
+
+.tickers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  div {
+    p {
+      line-height: 1.7;
+    }
   }
 }
 
 .brandies {
   border-bottom: 1px solid $line;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   .brandies-image {
     width: 25%;
     padding: 1.5em 3em;
     text-align: center;
     height: 100%;
     img {
-      height: 100%;
+      width: 100%;
       margin: 0;
       padding: 0;
     }
@@ -283,11 +343,15 @@ h4 {
     width: 75%;
     height: 100%;
     align-self: center;
+    line-height: 1.7;
   }
 }
 
 .boxes {
   border-bottom: 1px solid $line;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .links {

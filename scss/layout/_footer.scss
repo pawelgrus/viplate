@@ -1,13 +1,18 @@
 .footer {
 	width: 100%;
 	background: $solid-footer;
-	padding: 3em 4em;
+	padding: 0 4em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	p {
-		color: $font-dark;
+		color: $font-off;
 		margin-bottom: 0.75em;
+		line-height: 1.7;
 	}
 	h2 {
 		color: #fff;
 		margin-bottom: 1em;
+		margin-top: 2em;
 	}
 }
