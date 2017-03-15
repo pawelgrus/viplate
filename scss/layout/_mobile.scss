@@ -10,8 +10,12 @@
           div {
             width: 100%;
             text-align: center;
+            padding: 1.3em 0;
           }
         }
+      }
+      .panel-top {
+        display: none;
       }
     }
     .logo {

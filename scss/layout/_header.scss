@@ -43,6 +43,7 @@
     border-bottom: 1px solid $navy-blue;
     img {
       width: 100%;
+      height: auto;
       margin: 0;
       padding: 0;
     }
@@ -96,4 +97,8 @@
       }
     }
   }
+}
+
+.material-icons {
+      padding-right: 0.5em;
 }
