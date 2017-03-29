@@ -27,7 +27,6 @@
 	.mail-us {
 		color: #FFF;
 		display: inline-block;
-		width: 150px;
 	}
 }
 
@@ -41,9 +40,13 @@
     text-align: center;
     height: 100%;
     border-bottom: 1px solid $navy-blue;
+    display: flex;
+    justify-content: center;
     img {
-      width: 100%;
-      height: auto;
+      display: block;
+      width: auto;
+      height: 100%;
+      text-align: center;
       margin: 0;
       padding: 0;
     }
@@ -57,8 +60,8 @@
       display: flex;
       .mail-us {
         display: inline-block;
-        width: 150px;
-        padding: 10px;
+        width: auto;
+        padding: 10px 10px 10px 30px;
         text-align: right;
         color: #FFF;
         i {
@@ -101,4 +104,8 @@
 
 .material-icons {
       padding-right: 0.5em;
+}
+
+.center > .material-icons {
+    padding: 0;
 }

@@ -20,6 +20,11 @@
     }
     .logo {
       width: 100%;
+      img {
+        display: block;
+        width: auto;
+        height: 8em;
+      }
     }
   }
 
@@ -72,6 +77,13 @@
   .footer {
     div {
       width: 100%;
+      &:last-child {
+        margin-bottom: 3em;
+      }
     }
+  }
+
+  .linked-product {
+    width: 100%;
   }
 }
