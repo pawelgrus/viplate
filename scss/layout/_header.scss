@@ -97,12 +97,16 @@
         align-items: center;
         height: 100%;
         div {
-          padding: 0 40px;
           display: flex;
+          flex-grow: 1;
           align-items: center;
+          justify-content: center;
           height: 100%;
+          width: 100%;
+          white-space: nowrap;
           &:hover {
             background-color: #edeef1;
+            border-bottom: 1px solid #cfd8dc;
           }
         }
       }
